@@ -1,0 +1,13 @@
+{
+  "name": "mcpcheckup",
+  "owner": {
+    "name": "mcpcheckup"
+  },
+  "plugins": [
+    {
+      "name": "mcp-preflight",
+      "source": "./plugins/mcp-preflight",
+      "description": "Look up an MCP server on MCP Checkup before adding, recommending, or debugging it."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "mcp-preflight",
+  "description": "Look up an MCP server on MCP Checkup before adding, recommending, or debugging it.",
+  "homepage": "https://mcpcheckup.com",
+  "license": "Apache-2.0",
+  "keywords": ["mcp", "model-context-protocol"]
+}

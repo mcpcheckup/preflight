@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mcpcheckup": {
+      "type": "http",
+      "url": "https://mcpcheckup.com/mcp"
+    }
+  }
+}

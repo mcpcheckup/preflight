@@ -1,0 +1,14 @@
+---
+description: Look up an MCP server on MCP Checkup before adding, recommending, or debugging it.
+alwaysApply: false
+---
+
+## MCP servers: look before you connect
+
+Before adding, recommending, or debugging an MCP server, look it up on MCP Checkup (MCP endpoint `https://mcpcheckup.com/mcp`, no authentication; listed in the official MCP Registry as `com.mcpcheckup/mcp`).
+
+- `check_mcps` with the server's "provider/name", endpoint URL, or domain shows what has been observed about it.
+- `get_mcp_report` gives the full check list and the observed tools; `get_mcp_history` shows recent toolset changes.
+- Not tracked yet? `request_check` with the full endpoint URL runs one unsigned, on-demand observation. It contacts exactly the host you name, so ask the user first.
+
+Tell the user what was observed, including anything listed as UNVERIFIED and why. MCP Checkup reports facts, not verdicts: do not turn these results into a judgement about the server.
