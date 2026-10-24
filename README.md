@@ -2,6 +2,8 @@
 
 [![MCP Checkup](https://mcpcheckup.com/badge/mcpcheckup/mcp.svg)](https://mcpcheckup.com/check/mcpcheckup/mcp)
 
+[Available in the Claude Connectors Directory](https://claude.ai/directory/connectors/mcp-checkup)
+
 A copy-paste snippet, a Cursor rule, and a Claude Code plugin that all carry the same instruction: check an MCP server on [MCP Checkup](https://mcpcheckup.com) before an agent connects to it.
 
 ## Install
@@ -20,6 +22,10 @@ Copy `.cursor/rules/mcp-preflight.mdc` from this repository into your own reposi
 **AGENTS.md**
 
 Copy the body of `AGENTS.md` from this repository into your own repository's root `AGENTS.md`.
+
+**MCP Checkup in Claude**
+
+Claude users can add MCP Checkup straight from the Claude Connectors Directory, where it is listed as a community connector: in Claude, open Customize → Connectors → Browse and search for MCP Checkup. No MCP Checkup account or API key is needed. Other clients connect to `https://mcpcheckup.com/mcp` (Streamable HTTP, no authentication).
 
 ## MCP servers: look before you connect
 
